@@ -154,36 +154,6 @@ data['Tectonic Setting [Numerical Value]'] = tectsett_numval
 data.head(5)
 
 
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
 # In[187]:
 
 
@@ -209,48 +179,22 @@ data.plot(x='Tectonic_Setting',y='Elevation (Meters)')
 figure(num=None, figsize=(10, 12), dpi=120, facecolor='w', edgecolor='k')
 
 
-# In[190]:
-
-
-#plt.matshow(data.corr())
-#plt.show()
-
-
 # In[191]:
 
 
-#f = plt.figure(figsize=(19, 15))
-#plt.matshow(data.corr(), fignum=f.number)
-#plt.xticks(range(data.shape[1]), data.columns, fontsize=14, rotation=45)
-#plt.yticks(range(data.shape[1]), data.columns, fontsize=14)
-#cb = plt.colorbar()
-#cb.ax.tick_params(labelsize=14)
-#plt.title('Correlation Matrix', fontsize=16);
+
 
 
 # In[192]:
 
 
-#data['Dominant_Rock_Type']=data['Dominant_Rock_Type'].astype('category').cat.codes
-#data['Tectonic_Setting']=data['Tectonic_Setting'].astype('category').cat.codes
-#data.corr()
-#plt.matshow(data.corr())
-#plt.show()
-#f = plt.figure(figsize=(19, 15))
-#plt.matshow(data.corr(), fignum=f.number)
-#plt.xticks(range(data.shape[1]), data.columns, fontsize=14, rotation=45)
-#plt.yticks(range(data.shape[1]), data.columns, fontsize=14)
-#cb = plt.colorbar()
-#cb.ax.tick_params(labelsize=14)
-#plt.title('Correlation Matrix', fontsize=16);
+
 
 
 # In[193]:
 
 
 data.head(10)
-#rocktyp_tectsett = data['Dominant_Rock_Type','Tectonic_Setting']
-#rocktyp_tectsett.head(5)
 
 
 # In[194]:
